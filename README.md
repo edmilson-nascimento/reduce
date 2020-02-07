@@ -8,6 +8,6 @@ Implementação para ser utilizada como modelo da sintaxe _REDUCE_.
 Somar o total de um campo da tabela interna sem a necessidade de fazer um loop e incrementar o valor.
 
 ## Tecnologia adotada ##
-Existe um metodo statico que usa esse processamento e julguei ele melhor que a função para a necessidade.
+Sera executado um loop, mas de utilizando uma rotina _for_ que ja faz a soma do campo informado.
 
 ## Solução ##
