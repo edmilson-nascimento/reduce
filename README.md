@@ -11,3 +11,18 @@ Somar o total de um campo da tabela interna sem a necessidade de fazer um loop e
 Sera executado um loop, mas de utilizando uma rotina _for_ que ja faz a soma do campo informado.
 
 ## Solução ##
+
+```abap
+
+data(soma) =
+  reduce i(
+    init x = 0
+    for line in
+
+*   filter #( tab using key id where id = 'LH ' )
+   filter #( tab in filter where id = table_line  )
+
+    next x = x + line-qtd
+  ).
+  
+```
