@@ -5,10 +5,10 @@
 Implementação para ser utilizada como modelo da sintaxe _REDUCE_.
 
 ## Necessidade ##
-Somar o total de um campo da tabela interna sem a necessidade de fazer um loop e incrementar o valor.
+Somar o total de um campo da tabela interna sem a necessidade de fazer um _loop_ ou com sintaxe menos verbosa para o codigo.
 
 ## Tecnologia adotada ##
-Sera executado um loop, mas de utilizando uma rotina _for_ que ja faz a soma do campo informado.
+Sera utilizado uma sintaxa com `reduce` que atraves de um laço `for` ja faz a soma do campo informado.
 
 ## Solução ##
 
